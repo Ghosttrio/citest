@@ -12,6 +12,7 @@ public class controller {
     @GetMapping("/hello")
     public String test(){
         System.out.println("추가문");
+        System.out.println("추가문");
         return "hello2";
     }
 }
